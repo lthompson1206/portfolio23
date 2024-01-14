@@ -670,6 +670,18 @@ section {
   align-items: center;
   overflow: hidden;
 }
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: inherit;
+  color: inherit;
+}
+
+.icon-button:focus {
+  outline: none;
+}
 .main-btn .btn-text {
   padding: 0 2rem;
 }
